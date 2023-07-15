@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+button{
+    padding: 10px 5px;
+    border: none;
+    background-color: rgba(0, 255, 68, 0.222);
+    color: #000;
+    font-size: 20px;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    opacity: 0.8;
+    transform: translateY(-0.15em);
+    box-shadow: 0 0.5em 0.5em -0.4em purple;
+}
+nav{
+    background: white;
+    margin-left: 40px ;
+   /* z-index: 50;*/
+   margin-bottom: 30px;
+   position: sticky;
+   top: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.First{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.First-imagecontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tag{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    align-self: flex-start;
+}
+.btn_explore{
+    display: flex;
+    align-self: flex-start;
+}
+.First-imagecontent h1{
+    font-size: 72px;
+    line-height: 1.2;
+}
+.features{
+    margin-top: 90px;
+    margin-bottom: 35px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.features-image{
+    width: 10002px;
+    display: flex;
+}
+.features-content{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.divider{
+    border: 1px solid #ccc;
+    margin: 0px 0;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px ;
+    gap: 20px;
+}
+.menu .tag{
+   align-self: center;
+}
+.grid-image {
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "I1 I1 I2 I3"
+      "I1 I1 I2 I7"
+      "I4 I5 I6 I7";
+  }
+  
+  .item1 {
+    grid-area: I1;
+  }
+  .item2 {
+    grid-area: I2;
+  }
+  .item3 {
+    grid-area: I3;
+  }
+  .item4 {
+    grid-area: I4;
+  }
+  .item5 {
+    grid-area: I5;
+  }
+  .item6 {
+    grid-area: I6;
+  }
+  .item7 {
+    grid-area: I7;
+  }
+  footer{
+    background-color: #fff0db;
+  }
+  .links h3{
+    color: grey;
+  }
+  .links ul{
+    list-style: none;
+  }
+  .list ul,li{
+    margin-bottom: 5px;
+  }
+  .footer_container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .letter h3{
+    color: grey;
+  }
+  .letter input{
+    margin-bottom: 10px;
+  }
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+  }
